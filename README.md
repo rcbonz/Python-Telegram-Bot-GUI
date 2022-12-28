@@ -6,6 +6,8 @@ Soon requirements.txt will be available.
 ### What is it?
 This project aims to provide a base with wich you can have a *G*raphical *U*ser *I*nterface conversation with the bot users. You shoud be able to build your bot over this base.
 
+![Art](https://github.com/rcbonz/Python-Telegram-Bot-GUI/blob/main/gui.png)
+
 ### Functionalities
 * GUI for chatting with bot users;
 * Send document or photos through GUI;
