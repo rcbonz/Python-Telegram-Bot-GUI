@@ -4,7 +4,7 @@
 Soon requirements.txt will be available.
 
 ### What is it?
-This project aims to provide a base with wich you can have a *G*raphical *U*ser *I*nterface conversation with the bot users. You shoud be able to build your bot over this base.
+This project aims to provide a base with wich you can have a *G*raphical *U*ser *I*nterface conversation with the bot users. You shoud be able to build your bot over this base. It was writen based on [PTB](https://github.com/python-telegram-bot/python-telegram-bot) library.
 
 ![Art](https://github.com/rcbonz/Python-Telegram-Bot-GUI/blob/main/gui.png)
 
