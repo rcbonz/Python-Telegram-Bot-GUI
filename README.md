@@ -1,7 +1,53 @@
 # Python-Telegram-Bot GUI
 
 ### Using
-Soon requirements.txt will be available.
+```
+git clone https://github.com/rcbonz/Python-Telegram-Bot-GUI.git
+```
+```
+cd Python-Telegram-Bot-GUI
+```
+
+```
+pip install -r requirements.txt
+```
+Fill the /settings/settings.ini with your information (how to get those info? see [bellow](https://github.com/rcbonz/Python-Telegram-Bot-GUI/edit/main/README.md#how-to-create-a-telegram-bot))
+```
+BOT_API_KEY = <Your bot API Key>
+OWNER_TELE = <Bot's owner Telegram ID>
+```
+
+In two separate terminals run:
+
+1. The bot:
+```
+python3 guiBot.py
+```
+
+2.  The GUI:
+```
+python3 telegramBotGui.py
+```
+
+#### How to create a Telegram Bot
+-   Start a conversation with [BotFather](https://t.me/BotFather);
+-   Send it to the BotFather: /newbot
+-   Choose a name for your bot;
+-   Choose a username for your bot;
+-   Done! You'll get a token to access the HTTP API.
+
+#### How to get channel or chat (contact) ID from Telegram
+-   Start a conversation with [JsonDumpBot](https://t.me/JsonDumpBot);
+-   It will reply with a json with information from the message;
+-   Go to the channel or chat you want the id and forward a message from there to JsonDumpBot;
+-   Find the id in the reply. It'll look something like this:
+```html
+   {...
+    "forward_from_chat": {
+          "id": xxxxxxxxx,
+   ...}
+```
+
 
 ### What is it?
 This project aims to provide a base with wich you can have a *G*raphical *U*ser *I*nterface conversation with the bot users. You shoud be able to build your bot over this base. It was writen based on [PTB](https://github.com/python-telegram-bot/python-telegram-bot) library.
