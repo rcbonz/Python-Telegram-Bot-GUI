@@ -74,6 +74,3 @@ If you have ideas on how to improve this code, please feel free to submit a pull
 * Clean and improve Tkinter code;
 * Add more chat functionalities;
 * Add admin functionalities (i.e. ban/unban an user from a drop down menu)
-
-### Licence
-GPL-3.0
